@@ -31,7 +31,7 @@ def ran():
     return [random.randrange(0,n) for _ in range(4)]
 
 def fun(r,f=None, con=0):
-    msg = "alina"
+    msg = "msg"
     if con > n/2:
         con+=1
         if f:
